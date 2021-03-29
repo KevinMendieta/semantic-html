@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/content.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="highlight">Hi, I'm Kevin Mendieta.</h1>
+      <nav>
+        <ul>
+          <li class="highlight">
+            <a href="#">Projects</a>
+          </li>
+          <li class="highlight">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="body">
+        <section class="projects">
+          <h2 class="title highlight">My projects</h2>
+          <article>
+            <img
+              class="projects__img"
+              src="./assets/html_css.jpg"
+              alt="html icon"
+            />
+            <div class="description">
+              <h3 class="session__title">Semantic CSS workshop</h3>
+              <p>On March 27th, I learned about Semantic HTML and CSS Layout</p>
+            </div>
+          </article>
+          <article>
+            <img
+              class="projects__img"
+              src="./assets/flexbox.png"
+              alt="grid box icon"
+            />
+            <div class="description">
+              <h3 class="session__title">
+                Advanced flexbox & grid layouts workshop
+              </h3>
+              <p>
+                On April 3rd, I learned more layout techniques, Flexbox and CSS
+                Grid
+              </p>
+            </div>
+          </article>
+          <article>
+            <img
+              class="projects__img"
+              src="./assets/storybook.png"
+              alt="storybook logo"
+            />
+            <div class="description">
+              <h3 class="session__title">Storybook workshop</h3>
+              <p>
+                On April 17th, I became a CSS Pro by learning atomic design,
+                storybook and design tokens
+              </p>
+            </div>
+          </article>
+        </section>
+        <section class="contact">
+          <h2 class="title highlight">Contact</h2>
+          <form class="contact__form">
+            <div class="field">
+              <label class="field__label" for="contact_name">Name:</label>
+              <input type="text" class="field__input" id="contact_name" />
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="contact_email">Email:</label>
+              <input type="email" class="field__input" id="contact_email" />
+            </div>
+            <button class="field__button" type="submit" aria-label="send email">
+              Send
+            </button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer_container">
+        <h3 class="footer__title">Made with love by me.</h3>
+        <section class="footer__section">
+          <img class="footer__img" src="./assets/instagram_logo.png" alt="instagram logo"/>
+          <a href="https://www.instagram.com/kevinmendietap/" target="_blank">Instagram</a>
+          <img class="footer__img" src="./assets/twitter_logo.png" alt="twitter logo">
+          <a href="https://twitter.com/kevinmendietaP" target="_blank">Twitter</a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
